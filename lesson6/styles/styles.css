@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(229, 240, 234);
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+   
+}
+
+.photo{
+    flex: 0 0 400px;
+    margin: 10px;
+    border: 2px solid;
+    border-color: rgb(75, 75, 75);
+    padding: 10px;
+
+}
+
+.photo img{
+    max-width: 100%;
+
+}
+
+.photo .text{
+    padding: 10px;
+}
+
+.photo .text >button {
+    background-color: rgb(26, 25, 25);
+    border: 0;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.photo .text > button:hover{
+    background: brown;
+
+}
+
+table{
+    border-collapse: collapse ;
+    width: 50%;
+    margin: 100px;
+    border-bottom: 2px solid;
+    border-color: rgb(78, 20, 20);
+    background-color:  rgb(248, 244, 238);
+    
+
+    
+    
+}
+
+th{
+    text-align:left;
+    padding: 7px;
+    background-color: rgb(117, 31, 31);
+    color: antiquewhite;
+}
+
+td{
+    text-align:left;
+    padding: 7px;
+    
+}
+
+tr:hover{
+    background-color: rgb(131, 132, 132);
+    color: antiquewhite;
+    
+}
+
+
+
+
+
+
